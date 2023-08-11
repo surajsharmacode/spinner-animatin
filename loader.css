@@ -1,0 +1,35 @@
+*{
+    background: #0000;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+ align-items: center;
+ background-color: aquamarine;
+
+ min-height: 100vh;
+ background-color: antiquewhite
+
+}
+
+.circle{
+
+     left: 30%;
+     top: 30%;
+    background-color: aliceblue;
+
+    width: 100px;
+    height: 100px;
+    border: 10px solid gray;
+    border-top-color: blue;
+    border-radius: 50%;
+    animation: loader 1s linear infinite;
+    
+
+}
+@keyframes loader {
+    from{transform: rotate(0turn);}
+    to{transform: rotate(1turn);}
+    
+}
